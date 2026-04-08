@@ -3,12 +3,7 @@
 import { motion } from "framer-motion";
 import { useI18n } from "@/lib/i18n";
 
-const socials = [
-  { label: "GitHub", href: "https://github.com/adriano", icon: "GH" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/adriano", icon: "LI" },
-  { label: "Instagram", href: "https://instagram.com/adriano", icon: "IG" },
-  { label: "X", href: "https://x.com/adriano", icon: "X" },
-];
+const socials: { label: string; href: string; icon: string }[] = [];
 
 export default function Footer() {
   const { lang, t } = useI18n();
