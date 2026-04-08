@@ -48,8 +48,8 @@ function CaseCard({ index }: { index: number }) {
           {hasImages ? (
             <>
               <AnimatePresence mode="wait">
-                <motion.div key={activeImg} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.4 }} className="absolute inset-0">
-                  <Image src={images[activeImg]} alt={`${project.title} — ${activeImg + 1}`} fill className="object-cover transition-transform duration-700 group-hover:scale-[1.03]" sizes="(max-width: 768px) 100vw, 1200px" />
+                <motion.div key={activeImg} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.4 }} className="absolute inset-0 w-full h-full">
+                  <Image src={images[activeImg]} alt={`${project.title} — ${activeImg + 1}`} fill className="object-cover transition-transform duration-700 group-hover:scale-[1.03]" sizes="(max-width: 768px) 100vw, 1200px" quality={80} />
                 </motion.div>
               </AnimatePresence>
               <div className="absolute inset-0 bg-bg-secondary/0 group-hover:bg-bg-secondary/20 transition-all duration-500" />
