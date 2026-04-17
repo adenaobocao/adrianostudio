@@ -132,12 +132,17 @@ const translations = {
     label: { pt: "Trabalhos Selecionados", en: "Selected Work" },
     heading: { pt: "Cases", en: "Cases" },
     subtitle: {
-      pt: "De Londres ao Brasil, de cerveja artesanal a crypto — arte, branding e tecnologia no mesmo lugar.",
-      en: "From London to Brazil, from craft beer to crypto — art, branding and technology in one place.",
+      pt: "De Londres ao Brasil, de cerveja artesanal a plataformas SaaS — arte, branding e tecnologia no mesmo lugar.",
+      en: "From London to Brazil, from craft beer to SaaS platforms — art, branding and technology in one place.",
     },
     viewProject: { pt: "Ver Projeto", en: "View Project" },
     prev: { pt: "Anterior", en: "Previous" },
     next: { pt: "Próxima", en: "Next" },
+    filterAll: { pt: "Tudo", en: "All" },
+    filterBrand: { pt: "Marca & Identidade", en: "Brand & Identity" },
+    filterProduct: { pt: "Produto Digital", en: "Digital Product" },
+    liveBadge: { pt: "AO VIVO", en: "LIVE" },
+    openLive: { pt: "Abrir site", en: "Open live" },
     projects: [
       {
         title: "Kokokotsu",
@@ -180,14 +185,6 @@ const translations = {
         },
       },
       {
-        title: "Viralata Finance ($REAU)",
-        type: { pt: "Web3 Site + Branding — Brasil / Global", en: "Web3 Site + Branding — Brazil / Global" },
-        description: {
-          pt: "Site completo para token na BSC. Ilustrações custom, scroll animations, tokenomics interativo, leaderboard, staking, NFTs. Comunidade de milhares de holders.",
-          en: "Complete site for a BSC token. Custom illustrations, scroll animations, interactive tokenomics, leaderboard, staking, NFTs. Community of thousands of holders.",
-        },
-      },
-      {
         title: "SABAI (สบาย)",
         type: { pt: "Brand + Cosméticos — Brasil / Tailândia", en: "Brand + Cosmetics — Brazil / Thailand" },
         description: {
@@ -201,14 +198,6 @@ const translations = {
         description: {
           pt: "Plataforma digital para bar/restaurante com pedidos online, integração Mercado Pago e automação via WhatsApp Cloud API.",
           en: "Digital platform for bar/restaurant with online ordering, Mercado Pago integration and WhatsApp Cloud API automation.",
-        },
-      },
-      {
-        title: "Caramelo ($CARA)",
-        type: { pt: "Agente IA + Web3", en: "AI Agent + Web3" },
-        description: {
-          pt: "Agente autônomo de IA na Solana com state machine emocional, memória vetorial e monitoramento on-chain. Sucessor do Viralata Finance.",
-          en: "Autonomous AI agent on Solana with emotional state machine, vector memory and on-chain monitoring. Successor to Viralata Finance.",
         },
       },
     ],
